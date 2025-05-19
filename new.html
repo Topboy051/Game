@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+    <script src="new.js" defer></script>
+</head>
+
+<body>
+    <div id="main_game" class="hidden">
+        <div class="play_buttons inverted" id="computer">
+            <img src="paperhighlighted.png" id="c_Paper" data-name="paper">
+            <img src="rockhighlghted.png" id="c_Rock" data-name="rock">
+            <img src="scissorshighlighted.png" id="c_Scissors" data-name="scissors">
+        </div>
+        <h1 id="counter">Paper, Rock, Scissors</h1>
+        <div class="play_buttons">
+            <img src="paperhighlighted.png" id="user_paper" onclick="my_choice(this)" data-name="paper">
+            <img src="rockhighlghted.png" id="user_rock" onclick="my_choice(this)" data-name="rock">
+            <img src="scissorshighlighted.png" id="user_scissors" onclick="my_choice(this)" data-name="scissors">
+        </div>
+    </div>
+    </div>
+    <button id="start">Start Game</button>
+    <button id="replay">Replay Game</button>
+</body>
+
+</html>
